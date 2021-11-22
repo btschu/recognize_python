@@ -74,11 +74,11 @@ print_hello_x_or_ten_times(4) #run function with argument x=4
 Bonus section
 """
 
-print(num3) #NameError: name 'num3' is not defined
+print(num3) #print num3 if num3 is defined
 num3 = 72 #set int variable to 72
 fruit[0] = 'cranberry' #set index 0 in list fruit
-print(person['favorite_team']) #TypeError: object has no attribute
-print(pizza_toppings[7]) #list index out of range
+print(person['favorite_team']) #print persons favorite team
+print(pizza_toppings[7]) #prints index 7 of pizza_toppings list
 print(boolean) #print True
-fruit.append('raspberry') #no append attribute on a tuple object
-fruit.pop(1) #no pop attribute on a tuple object
+fruit.append('raspberry') #tuples cannot be changed
+fruit.pop(1) #tuples cannot be changed
