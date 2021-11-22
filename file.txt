@@ -11,7 +11,7 @@
         - Numbers
         - Strings
     - Composite
-        - List 
+        - List
             - initialize
             - access value
             - change value
